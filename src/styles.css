@@ -1,3 +1,73 @@
-.hello {
-  color: red;
+* {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 4em;
+  padding-left: 50px;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+
+p {
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.recent {
+  width: 40%;
+}
+
+.recentHead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+
+#resetBtn {
+  height: 30px;
+  width: 80px;
+  background: none;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+}
+
+.playerScores {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+}
+
+.playerScore {
+  padding: 2% 3%;
+  font-weight: 700;
+}
+
+.add {
+  width: 40%;
+}
+
+input {
+  display: block;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 40px;
+  border: 2px solid black;
+  box-shadow: 2px 2px black;
+  outline: none;
+  padding-left: 10px;
+}
+
+#submit {
+  height: 30px;
+  width: 80px;
+  background: none;
+  box-shadow: 2px 2px black;
+  cursor: pointer;
+  margin-left: 220px;
 }
