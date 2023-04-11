@@ -6,6 +6,7 @@ h1 {
   font-size: 4em;
   padding-left: 50px;
 }
+
 .wrapper {
   display: flex;
   justify-content: space-around;
