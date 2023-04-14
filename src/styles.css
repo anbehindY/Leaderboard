@@ -2,9 +2,19 @@
   box-sizing: border-box;
 }
 
+body {
+  background: url(../vector.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 h1 {
   font-size: 4em;
   padding-left: 50px;
+  background: url(../whiteWall.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: contain;
 }
 
 .wrapper {
@@ -15,6 +25,10 @@ h1 {
 p {
   font-size: 2.5em;
   font-weight: bold;
+  background: url(../whiteWall.jpg);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: cover;
 }
 
 .recent {
@@ -32,16 +46,21 @@ p {
 #resetBtn {
   height: 30px;
   width: 80px;
-  background: none;
   box-shadow: 2px 2px black;
   cursor: pointer;
+  background: rgb(66, 66, 94);
+  color: aliceblue;
+  border-radius: 10px;
 }
 
 .playerScores {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  border-radius: 10px;
   box-shadow: 2px 2px black;
+  background: rgb(66, 66, 94);
+  color: aliceblue;
 }
 
 .playerScore {
@@ -62,13 +81,21 @@ input {
   box-shadow: 2px 2px black;
   outline: none;
   padding-left: 10px;
+  border-radius: 10px;
 }
 
 #submit {
   height: 30px;
   width: 80px;
-  background: none;
+  background: rgb(66, 66, 94);
+  color: aliceblue;
   box-shadow: 2px 2px black;
   cursor: pointer;
   margin-left: 220px;
+  border-radius: 10px;
+}
+
+#submit:hover,
+#resetBtn:hover {
+  background: #ff3e61;
 }
