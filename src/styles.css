@@ -46,7 +46,6 @@ p {
 #resetBtn {
   height: 30px;
   width: 80px;
-  background: none;
   box-shadow: 2px 2px black;
   cursor: pointer;
   background: rgb(66, 66, 94);
